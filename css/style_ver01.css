@@ -1,0 +1,30 @@
+/*IDとPASSを作成*/
+#save_idpass{
+    width: 100px;
+    height: 30px;
+    background-color: pink;
+    color: white;
+    text-align: center;
+    box-sizing: content-box;
+    padding-top: 5px;
+}
+#save_idpass:hover{
+    background-color: blue;
+}
+
+/*ログイン画面*/
+.login_idpass{
+    display: none;
+}
+#login_btn{
+    width: 100px;
+    height: 30px;
+    background-color: pink;
+    color: white;
+    text-align: center;
+    box-sizing: content-box;
+    padding-top: 5px;
+}
+#login_btn:hover{
+    background-color: blue;
+}

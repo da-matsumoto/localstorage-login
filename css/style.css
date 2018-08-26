@@ -1,0 +1,239 @@
+/*装飾*/
+textarea{
+    border:0;
+    padding:10px;
+    font-size:16px;
+    font-family:Arial, sans-serif;
+    color:#0656A9;
+    border:solid 2px #0656A9;
+    margin:0 0 20px;
+    width:200px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.page{
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.page textarea{
+    border:0;
+    padding:0px;
+    font-size:14px;
+    font-family:Arial, sans-serif;
+    color:#0656A9;
+    border:solid 2px #0656A9;
+    width:200px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.page{
+    color:#0656A9; 
+    text-align: center;
+}
+.page h2{
+    font-size: 30px;
+}
+.page h3{
+    font-size: 20px;
+}
+table {
+    width: 1000px;
+    margin: 0 auto;
+    border-collapse: separate;
+    border-spacing: 0px 15px;
+    font-size: 18px;
+}
+ 
+table th,
+table td {
+    padding: 15px;
+    text-align: center;
+}
+ 
+table th {
+    background: #0656A9;
+    vertical-align: middle;
+    overflow: visible;
+    position: relative;
+    color: #fff;
+    font-weight: normal;
+    font-size: 15px;
+}
+ 
+table th:after {
+    left: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(136, 183, 213, 0);
+    border-left-color: #0656A9;
+    border-width: 10px;
+    margin-top: -10px;
+}
+/* firefox */
+@-moz-document url-prefix() {
+    table th::after {
+        float: right;
+        padding: 0;
+        left: 30px;
+        top: 10px;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: relative;
+        pointer-events: none;
+        border: 10px solid transparent;
+        border-left: #295890 10px solid;
+        margin-top: -10px;
+    }
+}
+ 
+table td {
+    background: #f8f8f8;
+}
+table td textarea{
+    width: 300px;
+    height: 30px;
+    margin-top: 25px;
+}
+.wide textarea{
+    width: 720px;
+    height: 50px;
+    margin-top: 25px;
+}
+.high textarea{
+    width: 720px;
+    height: 200px;
+    margin-top: 25px;
+}
+.intext textarea{
+    margin-bottom: -6px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.wrapper{
+    width: 500px;
+    margin: 100px auto 0;
+}
+.title_center{
+    width: 350px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.title_left{
+    width: 350px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+/*スタート画面*/
+.start{
+    width: 350px;
+    margin: 0 auto;
+    /*display: none;*/
+}
+
+img.hover:hover{
+	opacity: 0.5;
+}
+
+#dont_have_id{
+    float: left;
+}
+#already_have_id{
+    float: right;
+}
+
+/*ID入力*/
+.make_id{
+    width: 350px;
+    margin: 0 auto;
+    text-align: left;
+    display: none;
+}
+
+
+/*PASS入力*/
+.make_pass{
+    width: 350px;
+    margin: 0 auto;
+    text-align: left;
+    display: none;
+}
+
+/*ログイン情報*/
+.yourinfo{
+    display: none;
+}
+
+/*ログイン画面へ*/
+#go_to_login{
+    width: 150px;
+    height: 30px;
+    background-color: pink;
+    color: white;
+    text-align: center;
+    box-sizing: content-box;
+    padding-top: 5px;
+    margin-bottom: 10px;
+    display: none;
+}
+#go_to_login:hover{
+    background-color: blue;
+}
+
+/*ログイン*/
+.login_idpass{
+    width: 350px;
+    margin: 0 auto;
+    text-align: left;
+    display: none;
+}
+.login_idpass h2{
+    font-size: 16px;
+    color: #0656A9;
+}
+
+/*メモ画面*/
+#save,#clear,#logout{
+    width: 100px;
+    height: 30px;
+    background-color: #0656A9;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 15px;
+    margin-bottom: 10px;
+}
+#save:hover,#clear:hover,#logout:hover{
+    background-color: #E7F0F8;
+	color: #0656A9;
+}
+#btn_1,#btn_2,#btn_3{
+	width: 300px;
+    height: 30px;
+    background-color: #E7F0F8;
+    color: #0656A9;
+    text-align: center;
+    padding-top: 15px;
+    margin-bottom: 10px;
+}
+#btn_1:hover,#btn_2:hover,#btn_3:hover{
+	background-color: #0656A9;
+	color: #FFFFFF;
+}
+.page{
+	display: none;
+}
+.page2,.page3{
+	display: none;
+}
